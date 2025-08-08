@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: hsl(325, 93%, 62%);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.header-container {
+  position: relative;
+}
+
+.header-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #fff;
+  color: #007acc;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.header-link:hover {
+  background: #005f99;
+  color: #fff;
+}
+
+nav {
+  background: #c08e8e;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  background: #49b4fc;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background: #6ca2c4;
+}
+
+section {
+  padding: 40px 20px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #6ffc8e;
+  color: rgb(14, 13, 13);
+  padding: 10px 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
